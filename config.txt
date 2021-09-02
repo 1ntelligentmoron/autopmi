@@ -1,0 +1,82 @@
+## DO NOT edit lines starting with (a) hash(es) (# or ##), they are instructions.
+## DO NOT edit anything left of (and including) an equal sign (=).
+
+
+## General options
+# wait: time needed to open browser and go to zoom.us, unit = seconds, default = 3
+wait=3
+
+
+## Teachers' PMI
+# DO NOT enter any hyphens or spaces, numbers ONLY.
+# Leave empty if you do not study the subject.
+# E.g. you don't study HL economics, then:
+# econ_hl=
+chi=3641644085
+eng=8603147731
+maths=4250521170
+bio_sl=
+bio_hl=
+chem_sl=
+chem_hl=
+compsci=5161823800
+econ_sl=
+econ_hl=
+geog=8634365482
+hist=
+phy=7355556244
+psy_sl=
+psy_hl=
+tok=3524716921
+re=4287727803
+fle=5168805269
+pe=7823785789
+asm=8392221738
+
+
+## Afternoon Timetable
+## Type EITHER the name of the subject (as written above), OR the PMI (numbers only) itself.
+## For double lessons type the information for BOTH lessons.
+## If you don't need to attend the lesson (i.e. HL class but SL student), leave blank
+## For RE/FLE lessons, type 'refle'
+## For EE lessons, leave blank (I don't know which teacher to find either.)
+# Week A Monday
+A1_lesson_8=pe
+A1_lesson_9=phy
+A1_lesson_10=phy
+# Week A Tuesday
+A2_lesson_8=eng
+A2_lesson_9=
+A2_lesson_10=
+# Week A Wednesday
+A3_lesson_8=refle
+A3_lesson_9=maths
+A3_lesson_10=maths
+# Week A Thursday
+A4_lesson_8=phy
+A4_lesson_9=
+A4_lesson_10=
+# Week A Friday
+A5_lesson_8=chi
+A5_lesson_9=chi
+A5_lesson_10=
+# Week B Monday
+B1_lesson_8=chi
+B1_lesson_9=eng
+B1_lesson_10=phy
+# Week B Tuesday
+B2_lesson_8=geog
+B2_lesson_9=geog
+B2_lesson_10=
+# Week B Wednesday
+B3_lesson_8=compsci
+B3_lesson_9=tok
+B3_lesson_10=maths
+# Week B Thursday
+B4_lesson_8=eng
+B4_lesson_9=eng
+B4_lesson_10=
+# Week B Friday
+B5_lesson_8=geog
+B5_lesson_9=asm
+B5_lesson_10=
