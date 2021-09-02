@@ -40,11 +40,17 @@ def get_val(Nx2_2d_list, key):
     return
 
 def join_zoom(subject: str):
-    url = f'https://zoom.us/j/{get_val(pmi, subject)}'
-    web.open(url)
-    time.sleep(int(get_val(option, 'wait')))  # wait for browser to load page
-    gui.press('left')
-    gui.press('enter')
+    if subject == 'refle':
+        print('\nPlease choose the subject manually, this window will close in 30 seconds.')
+        print('RE: https://zoom.us/j/4287727803')
+        print('FLE: https://zoom.us/j/5168805269')
+        time.sleep(30)
+    else:
+        url = f'https://zoom.us/j/{get_val(pmi, subject)}'
+        web.open(url)
+        time.sleep(int(get_val(option, 'wait')))  # wait for browser to load page
+        gui.press('left')
+        gui.press('enter')
 
 
 # Script
