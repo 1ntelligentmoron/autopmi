@@ -22,7 +22,7 @@ line_no = 0
 for config in configs:
     
     line_no += 1
-    
+
     if config[0] == '#' or config == '\n':
         continue
     
@@ -40,9 +40,17 @@ for config in configs:
 # print("sched", sched)
 
 
-# Main
 def join_zoom(subject):
     webbrowser.open('https://zoom.us/j/')
     time.sleep(3)
     gui.press('left')
     gui.press('enter')
+
+
+# Script
+def main():
+    join_zoom(None)
+    
+    
+if __name__ == "__main__":
+    pass  # main()
