@@ -9,6 +9,7 @@ wait=3
 
 ## Teachers' PMI
 # DO NOT enter any hyphens or spaces, numbers ONLY.
+# No need to enter PMI of RE, FLE and EE teachers as they are the same for the whole level.
 # Leave empty if you do not study the subject.
 # E.g. you don't study HL economics, then:
 # econ_hl=
@@ -28,8 +29,6 @@ phy=7355556244
 psy_sl=
 psy_hl=
 tok=3524716921
-re=4287727803
-fle=5168805269
 pe=7823785789
 asm=8392221738
 
@@ -39,7 +38,6 @@ asm=8392221738
 ## For double lessons type the information for BOTH lessons.
 ## If you don't need to attend the lesson (i.e. HL class but SL student), leave blank
 ## For RE/FLE lessons, type 'refle'
-## For EE lessons, leave blank (I don't know which teacher to find either.).
 ## A1_lesson_8 means week A, monday, Zoom lesson 8 (refer to timetable from school).
 # Week A Monday
 A1_lesson_8=pe
@@ -60,7 +58,7 @@ A4_lesson_10=
 # Week A Friday
 A5_lesson_8=chi
 A5_lesson_9=chi
-A5_lesson_10=
+A5_lesson_10=ee
 # Week B Monday
 B1_lesson_8=chi
 B1_lesson_9=eng
@@ -80,4 +78,4 @@ B4_lesson_10=
 # Week B Friday
 B5_lesson_8=geog
 B5_lesson_9=asm
-B5_lesson_10=
+B5_lesson_10=ee

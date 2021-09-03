@@ -7,3 +7,7 @@ Bear in mind that it is your responsibility to ensure that you attend the correc
 
 # Program Requirements
 None, really.
+
+# Setting up the Program
+Before using this program, fill in the information needed in the text file `config.txt`, instructions will be given there.
+To use the program simply open `pmi.exe`, either directly or through a shortcut and let the magic begin.

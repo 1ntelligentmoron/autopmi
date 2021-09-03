@@ -26,9 +26,9 @@ for config in configs:
     
     if 7 <= line_no <= 7:
         option.append(kv_pair)
-    elif 15 <= line_no <= 34:
+    elif 15 <= line_no <= 33:
         pmi.append(kv_pair)
-    elif 45 <= line_no <= 83:
+    elif 43 <= line_no <= 81:
         sched.append(kv_pair)
 
     
@@ -45,7 +45,14 @@ def join_zoom(subject: str):
         print('RE: https://zoom.us/j/4287727803')
         print('FLE: https://zoom.us/j/5168805269')
         time.sleep(30)
+    elif subject == 'ee':
+        print('\nPlease choose the teacher manually, this window will close in 30 seconds.')
+        print('EE Lesson:')
+        print('YPWP: https://zoom.us/j/7578549019')
+        print('LGW: https://zoom.us/j/3651136599')
+        time.sleep(30)
     else:
+        halt = input(f'\nJoining {subject} lesson, confirm? (Press ENTER to continue, close this window if not.)')
         url = f'https://zoom.us/j/{get_val(pmi, subject)}'
         web.open(url)
         time.sleep(int(get_val(option, 'wait')))  # wait for browser to load page
@@ -65,11 +72,11 @@ def main():
         day = dt.strftime('%w')  # Day of week
         hhmm = int(dt.strftime('%H') + dt.strftime('%M'))  # Time in str(HHMM)
         
-        if day in ('0', '6') or not 1540 <= hhmm <= 1745:  # Exit if weekend or no Zoom lesson coming up
+        if day in ('0', '6') or not 1530 <= hhmm <= 1745:  # Exit if weekend or no Zoom lesson coming up
             print('No upcoming lesson.')
             break
         
-        if 1540 <= hhmm < 1620:  # Get lesson number
+        if 1530 <= hhmm < 1620:  # Get lesson number
             lesson_no = '8'
         elif 1620 <= hhmm < 1655:
             lesson_no = '9'
