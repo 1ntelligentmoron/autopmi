@@ -75,8 +75,10 @@ def main():
         
         if week_num in a:
             week = 'A'
+            print('Week A')
         elif week_num in b:
             week = 'B'
+            print('Week B')
         else:
             week = input('Week A or B? ').upper()
         
