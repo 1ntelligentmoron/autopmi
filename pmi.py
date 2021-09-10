@@ -13,6 +13,8 @@ with open('config.txt', 'r') as file:
 option = []
 pmi = []
 sched = []
+a = []
+b = []
 line_no = 0  # temp index for assigning key-value pairs to lists
 
 for config in configs:
@@ -30,6 +32,10 @@ for config in configs:
         pmi.append(kv_pair)
     elif 43 <= line_no <= 81:
         sched.append(kv_pair)
+    elif 86 <= line_no <= 104:
+        a.append(config[:-1])
+    elif 106 <= 125:
+        b.append(config[:-1])
 
     
 # QoL functions
@@ -65,7 +71,15 @@ def main():
     
     while True:
         
-        week = input('Week A or B? ').upper()  # Week ident
+        week_num = dt.strftime('%y') + dt.strftime('%U')
+        
+        if week_num in a:
+            week = 'A'
+        elif week_num in b:
+            week = 'B'
+        else:
+            week = input('Week A or B? ').upper()
+        
         if week not in ('A', 'B'):  # Week validation
             print('Invalid week, try again.\n')
             continue
