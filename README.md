@@ -13,7 +13,7 @@ None, really.
 # Setting up the Program
 After installing `autopmi.nsi`, open it and follow the installation wizard.
 
-You should find a `autopmi.exe` file and a `config.txt` file. **Both of them need to be in the same folder to work.**
+You should find an `autopmi/` folder, in which an `autopmi.exe` file and a `config.txt` file. **Both of them need to be in the same folder to work.**
 
 Open `config.txt`, customise it according to your timetable, obeying strictly to the instructions given in the text file.
 
