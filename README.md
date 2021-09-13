@@ -11,6 +11,10 @@ Bear in mind that it is your responsibility to ensure that you attend the correc
 None, really.
 
 # Setting up the Program
-Before using this program, fill in the information needed in the text file `config.txt`, instructions will be given there.
+After installing `autopmi.nsi`, open it and follow the installation wizard.
 
-To use the program simply open `pmi.exe`, either directly or through a shortcut and let the magic begin.
+You should find a `autopmi.exe` file and a `config.txt` file. **Both of them need to be in the same folder to work.**
+
+Open `config.txt`, customise it according to your timetable, obeying strictly to the instructions given in the text file.
+
+Setup is complete and you may make a shortcut to `autopmi.exe` on your desktop.

@@ -9,23 +9,23 @@ wait=3
 
 ## Teachers' PMI
 # DO NOT enter any hyphens or spaces, numbers ONLY.
-# No need to enter PMI of RE, FLE and EE teachers as they are the same for the whole level.
+# No need to enter PMI of RE, FLE and EE teachers as it is impossible to determine whose to join.
 # Leave empty if you do not study the subject.
 # E.g. you don't study HL economics, then:
 # econ_hl=
-chi=3641644085
-eng=8601547731
-maths=4250521170
+chi=
+eng=
+maths=
 bio_sl=
 bio_hl=
 chem_sl=
 chem_hl=
-compsci=5161823800
+compsci=
 econ_sl=
 econ_hl=
-geog=8634365482
+geog=
 hist=
-phy=7355556244
+phy=
 psy_sl=
 psy_hl=
 tok=3524716921
@@ -40,43 +40,43 @@ asm=8392221738
 ## For RE/FLE lessons, type 'refle'
 ## A1_lesson_8 means week A, monday, Zoom lesson 8 (refer to timetable from school).
 # Week A Monday
-A1_lesson_8=pe
-A1_lesson_9=phy
-A1_lesson_10=phy
+A1_lesson_8=
+A1_lesson_9=
+A1_lesson_10=
 # Week A Tuesday
-A2_lesson_8=eng
+A2_lesson_8=
 A2_lesson_9=
 A2_lesson_10=
 # Week A Wednesday
-A3_lesson_8=refle
-A3_lesson_9=maths
-A3_lesson_10=maths
+A3_lesson_8=
+A3_lesson_9=
+A3_lesson_10=
 # Week A Thursday
-A4_lesson_8=phy
+A4_lesson_8=
 A4_lesson_9=
 A4_lesson_10=
 # Week A Friday
-A5_lesson_8=chi
-A5_lesson_9=chi
-A5_lesson_10=ee
+A5_lesson_8=
+A5_lesson_9=
+A5_lesson_10=
 # Week B Monday
-B1_lesson_8=chi
-B1_lesson_9=eng
-B1_lesson_10=phy
+B1_lesson_8=
+B1_lesson_9=
+B1_lesson_10=
 # Week B Tuesday
-B2_lesson_8=geog
-B2_lesson_9=geog
+B2_lesson_8=
+B2_lesson_9=
 B2_lesson_10=
 # Week B Wednesday
-B3_lesson_8=compsci
-B3_lesson_9=tok
-B3_lesson_10=maths
+B3_lesson_8=
+B3_lesson_9=
+B3_lesson_10=
 # Week B Thursday
-B4_lesson_8=eng
-B4_lesson_9=eng
+B4_lesson_8=
+B4_lesson_9=
 B4_lesson_10=
 # Week B Friday
-B5_lesson_8=geog
+B5_lesson_8=
 B5_lesson_9=asm
 B5_lesson_10=ee
 

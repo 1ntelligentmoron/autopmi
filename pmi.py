@@ -58,12 +58,17 @@ def join_zoom(subject: str):
         print('LGW: https://zoom.us/j/3651136599')
         time.sleep(30)
     else:
-        halt = input(f'\nJoining {subject} lesson, confirm? (Press ENTER to continue, close this window if not.)')
-        url = f'https://zoom.us/j/{get_val(pmi, subject)}'
-        web.open(url)
-        time.sleep(int(get_val(option, 'wait')))  # wait for browser to load page
-        gui.press('left')
-        gui.press('enter')
+        __pmi = get_val(pmi, subject)
+        if 9 <= len(__pmi) <= 11:
+            halt = input(f'\nJoining {subject} lesson, confirm? (Press ENTER to continue, close this window if not.)')
+            url = f'https://zoom.us/j/{__pmi}'
+            web.open(url)
+            time.sleep(int(get_val(option, 'wait')))  # wait for browser to load page
+            gui.press('left')
+            gui.press('enter')
+        else:
+            print('Invalid PMI in config.txt! Please correct accordingly.')
+            time.sleep(3)
 
 
 # Script
