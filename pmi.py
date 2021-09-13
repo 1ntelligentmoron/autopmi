@@ -89,7 +89,8 @@ def main():
         hhmm = int(dt.strftime('%H') + dt.strftime('%M'))  # Time in str(HHMM)
         
         if day in ('0', '6') or not 1530 <= hhmm <= 1745:  # Exit if weekend or no Zoom lesson coming up
-            print('No upcoming lesson.')
+            print('No upcoming lesson. Closing window in 3 seconds.')
+            time.sleep(3)
             break
         
         if 1530 <= hhmm < 1620:  # Get lesson number
